@@ -8,8 +8,8 @@
     },
     "authors": [
         {
-            "name": "yansongda",
-            "email": "me@yansongda.cn"
+            "name": "SmartJson",
+            "email": "SmartJson@smartjson.cn"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yansongda\\Supports\\": "src/"
+            "SmartJson\\Supports\\": "src/"
         }
     },
     "license": "MIT"

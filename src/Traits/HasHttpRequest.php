@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports\Traits;
+namespace SmartJson\Supports\Traits;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports;
+namespace SmartJson\Supports;
 
 use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\RotatingFileHandler;

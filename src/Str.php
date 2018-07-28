@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports;
+namespace SmartJson\Supports;
 
 /**
  * modify from Illuminate\Support;.

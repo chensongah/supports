@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Yansongda\Supports;
+namespace SmartJson\Supports;
 
 use ArrayAccess;
 use ArrayIterator;
