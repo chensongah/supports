@@ -523,7 +523,7 @@ class Str
     /**
      * Convert string's encoding.
      *
-     * @author yansongda <me@yansonga.cn>
+     * @author smartjson <me@yansonga.cn>
      *
      * @param string $string
      * @param string $to

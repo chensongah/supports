@@ -10,7 +10,7 @@ trait HasHttpRequest
     /**
      * Send a GET request.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param string $endpoint
      * @param array  $query
@@ -29,7 +29,7 @@ trait HasHttpRequest
     /**
      * Send a POST request.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param string       $endpoint
      * @param string|array $data
@@ -51,7 +51,7 @@ trait HasHttpRequest
     /**
      * Send request.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param string $method
      * @param string $endpoint
@@ -67,7 +67,7 @@ trait HasHttpRequest
     /**
      * Get base options.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @return array
      */
@@ -97,7 +97,7 @@ trait HasHttpRequest
     /**
      * Convert response.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param ResponseInterface $response
      *

@@ -19,7 +19,7 @@ class Log
     /**
      * Return the logger instance.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @return LoggerInterface
      */
@@ -31,7 +31,7 @@ class Log
     /**
      * Set logger.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param LoggerInterface $logger
      */
@@ -43,7 +43,7 @@ class Log
     /**
      * Tests if logger exists.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @return bool
      */
@@ -55,18 +55,18 @@ class Log
     /**
      * Make a default log instance.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @return \Monolog\Logger
      */
     protected static function createDefaultLogger()
     {
-        $handler = new RotatingFileHandler(sys_get_temp_dir().'/logs/yansongda.supports.log', 30);
+        $handler = new RotatingFileHandler(sys_get_temp_dir().'/logs/smartjson.supports.log', 30);
         $handler->setFormatter(
             new LineFormatter("%datetime% > %level_name% > %message% %context% %extra%\n\n", null, false, true)
         );
 
-        $logger = new Logger('yansongda.supports');
+        $logger = new Logger('smartjson.supports');
         $logger->pushHandler($handler);
 
         return $logger;
@@ -75,7 +75,7 @@ class Log
     /**
      * Forward call.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param string $method
      * @param array  $args
@@ -90,7 +90,7 @@ class Log
     /**
      * Forward call.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param string $method
      * @param array  $args

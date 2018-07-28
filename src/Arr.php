@@ -365,7 +365,7 @@ class Arr
     /**
      * Convert encoding.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @param array  $array
      * @param string $to_encoding

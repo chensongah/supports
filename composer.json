@@ -1,10 +1,10 @@
 {
-    "name": "yansongda/supports",
+    "name": "smartjson/supports",
     "description": "common components",
     "keywords": ["support", "array", "collection", "config", "http", "guzzle"],
     "support": {
-        "issues": "https://github.com/yansongda/supports/issues",
-        "source": "https://github.com/yansongda/supports"
+        "issues": "https://github.com/smartjson/supports/issues",
+        "source": "https://github.com/smartjson/supports"
     },
     "authors": [
         {

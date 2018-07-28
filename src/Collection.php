@@ -3,7 +3,7 @@
 /*
  * (c) overtrue <i@overtrue.me>
  *
- * modified by yansongda <me@yansongda.cn>
+ * modified by smartjson <me@smartjson.cn>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
